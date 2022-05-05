@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pluto page</title>
+        <link href="styles/style.css" rel="stylesheet"> 
+        <!-- 将.css文件引入页面作用于html -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <!-- https://fonts.google.com/specimen/Merriweather?category=Serif,Display&preview.size=24 -->
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <!-- https://fonts.google.com/specimen/Courgette?category=Handwriting&preview.size=24 -->
+        <button>切换用户</button>
+        <script src="scripts/main.js" defer></script>
+        <!-- 将.css文件引入页面 -->
+    </head>
+    <body>
+        <h1>Pluto</h1>
+        <img src="images/pluto-uanow.jpg" alt="pluto image">
+        <!--
+        <a href="https://www.nasa.gov/multimedia/imagegallery/index.html"><img src="images/pluto-uanow.jpg" alt="pluto image"></a>
+        -->
+
+        <p id="imageuanow">In this image of Pluto taken by NASA's New Horizons spacecraft, different colors represent different 
+            compositions of surface ices, revealing a surprisingly active body.<br />
+            (Source: NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute)</p>
+        <p id="imagetruecolor">This is the most accurate natural color images of Pluto taken by NASA's New Horizons spacecraft in 2015.<br />
+            (Source: NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker)</p>
+            <!--insert line break: html4 use <br/>; html use <br>; html ignores any line break from a keyboard’s return key-->
+        <h2>About Pluto</h2>
+        <ul>
+            <li>1. Discovered by Clyde W. Tombaugh, in February 18, 1930</li>
+            <li>2. Pluto was reclassified as a dwarf planet in 2006</li>
+            <li>3. Pluto's orbital period is currently about 248 years</li>
+            <li>4. Its orbital characteristics are substantially different from those of the planets</li>
+        </ul>
+        <p id="form-text">Type whatever you want here: </p>
+        <form action="url-where-you-want-to-submit-form-data">
+            <input type="text" placeholder="hahaha" required>
+            <button type="submit">submit</button>
+        </form>
+        <label for="planet"><input id="planet" type="radio" name="Pluto is a?">Planet</label>
+        <label for="dwarf planet"><input id="dwarf planet" type="radio" name="Pluto is a?">Dwarf Planet</label>
+        <h2>Plain Text</h2>
+        <p id="plaintext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="https://zh.wikipedia.org/wiki/Pluto">wikipedia-Pluto</a>
+    </body>
+</html>

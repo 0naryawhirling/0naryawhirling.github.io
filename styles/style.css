@@ -1,0 +1,30 @@
+html {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+body {
+    width: 880px; /* 强制页面宽度为880px */
+    margin: 0 auto; /* 上下外边距为0，左右外边距相同 */
+    background-color: #ffffff;
+    padding: 0 20px 20px 20px;
+    border: 2px solid black;
+}
+li {
+    color:brown;
+    display: flex;
+}
+img {
+    width: 600px;
+    /*display: block;
+    margin: 0 auto;*/
+    /* 此处是把img内联元素转换为块元素，再居中 */
+}
+#imageuanow, #pluto-truecolor {
+    font-size: 16px;
+}
+#plaintext {
+    font-family: 'Courgette', cursive;
+}
+form {
+    margin:0 10px 10px 30px;
+}
